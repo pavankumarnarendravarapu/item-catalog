@@ -55,4 +55,4 @@
 > After complition of this process. You used this in your project.
 
 # Visit my `Web-site`
- - 'http://localhost:5050/college'
+ - 'http://localhost:5050/login'
