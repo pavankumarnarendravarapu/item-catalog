@@ -63,7 +63,7 @@
 		localhost:5050/college/<int:college_id>/main/<int:branch_id>/JSON
 	</li>
 	<li>
-		localhost:5050/college/<int:branch_id>/menu/JSON
+		localhost:5050/college/<int:branch_id>/main/JSON
 	</li>
 </ul>
 
