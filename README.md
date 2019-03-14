@@ -54,5 +54,19 @@
 > Download the `JSON` file, renamed it as `client_secrets.json`
 > After complition of this process. You used this in your project.
 
+### JSON Endpoints
+<ul>
+	<li>
+		localhost:5050/college/JSON
+	</li>
+	<li>
+		localhost:5050/college/<int:college_id>/main/<int:branch_id>/JSON
+	</li>
+	<li>
+		localhost:5050/college/<int:branch_id>/menu/JSON
+	</li>
+</ul>
+
+
 ### Visit my `Web-site`
  - http://localhost:5050/login
