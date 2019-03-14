@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+	<form action="{{ url_for('editBranchList', college_id=college.id,b_id=branch.id)}}" method="POST">
+	<div class="matter">
+		branch_name<br><input type="text" name="branch_name" value="{{branch.branch_name}}"><br>
+		about<br><textarea name="about" rows="5" cols="100" value="{{branch.about}}"></textarea><br>
+		class_strength<br><input type="text" name="class_strength" value="{{branch.class_strength}}"><br>
+		labs<br><input type="text" name="labs" value="{{branch.labs}}"><br>
+		faculties<br><input type="text" name="faculties" value="{{branch.faculties}}"><br>
+		block<br><input type="text" name="block" value="{{branch.block}}"><br><br>
+		
+		<button class="w3-btn w3-white w3-border w3-border-red w3-round-large">Edit  <span class="glyphicon glyphicon-edit"></span></button>
+
+		<button class="w3-btn w3-white w3-border w3-border-red w3-round-large"><a href="{{url_for('showBranches',college_id=college.id)}}">Cancel</a></button>
+
+
+	</div>
+		
+</form>
+</body>
+</html>

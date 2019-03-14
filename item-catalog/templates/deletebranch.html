@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<form action="{{url_for('deleteBranchList',branch_id=lists.branch_id,list_id=lists.id)}}"
+method="POST">
+
+		branch_name<br><input type="text" name="branch_name" ><br>
+		about<br><textarea name="about" rows="5" cols="100" ></textarea><br>
+		class_strength<br><input type="text" name="class_strength" ><br>
+		labs<br><input type="text" name="labs" ><br>
+		faculties<br><input type="text" name="faculties" ><br>
+		block<br><input type="text" name="block" ><br><br>
+		<button class="w3-btn w3-white w3-border w3-border-red w3-round-large">Delete  <span class="glyphicon glyphicon-trash"></span></button>
+		<button class="w3-btn w3-white w3-border w3-border-red w3-round-large"><a href="{{url_for('showBranches',college_id=lists.branch_id)}}">Cancel</a></button>
+
+	</form>
+</body>
+</html>
