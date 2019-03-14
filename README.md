@@ -60,10 +60,10 @@
 		localhost:5050/college/JSON
 	</li>
 	<li>
-		localhost:5050/college/<int:college_id>/main/<int:branch_id>/JSON
+		localhost:5050/college/<int:branch_id>/main/JSON
 	</li>
 	<li>
-		localhost:5050/college/<int:branch_id>/main/JSON
+		localhost:5050/college/<int:college_id>/main/<int:branch_id>/JSON
 	</li>
 </ul>
 
