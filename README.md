@@ -5,7 +5,7 @@
 # Python files-:
  - I have one CRUD operation file - `college.py`
  - One database file - `college_database.py`
- - One information file - `college_info.py`
+ - One information file - `college_info.py` 
 # Softwares for item-catalog
  - `python3` - It is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.
  - `Git-Bash` - Git is a distributed version-control system for tracking changes in source code.
@@ -23,3 +23,9 @@
  | Vagrant | [https://www.vagrantup.com/downloads.html] |
  | DB browser | [https://sqlitebrowser.org/dl/] |
  | Sublime text | [https://www.sublimetext.com/3] |
+# Requirements for item-catalog
+ - `python3` - It is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.
+ - `HTML` - Hypertext Markup Language is the standard markup language for creating web pages and web applications. (we save files with `.html`).
+ - `CSS` - Cascading Style Sheets (it is used for styling the web pages).
+ - `BOOTSTRAP` - It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.(It is FRONT-END-FRAMEWORK)
+ - `JavaScript(JS)` - is a lightweight, interpreted or JIT compiled programming language with first-class functions. Most well-known as the scripting language for Web pages, many non-browser environments also use it, such as node.js and Apache CouchDB.
