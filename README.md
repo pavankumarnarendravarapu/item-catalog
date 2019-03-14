@@ -1,3 +1,5 @@
+<p style="text-align: right;">By N.Pavan Kuamr</p>
+
 # item-catalog
 > It is the 4th project in UACITY FULL STACK.
 ### Brief explaination-:
