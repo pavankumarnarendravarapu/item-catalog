@@ -66,4 +66,4 @@
 
 
 ### Visit my `Web-site`
- - http://localhost:5050/login
+ - http://localhost:5050/college/
