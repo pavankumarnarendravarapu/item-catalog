@@ -45,3 +45,11 @@
 
 # Process for login through Google
 > Open Browser and go to [console.developers.google.com](https://console.developers.google.com/)
+> Create a new project based on your UDACITY-PROJECT-NAME.
+> Then click on Credentials, to create a new credentials, and after that there wiil be a dialogue box showing.
+> Click on OAuth client ID, then you will see a option format for application type.
+> Select on `Web-application`, and then click on create button.
+> Fill the given columns with appropriate `HTTP` URL's.
+> After filling the columns with appropriate details
+> Download the `JSON` file, renamed it as `client_secrets.json`
+> After complition of this process. You used this in your project.
