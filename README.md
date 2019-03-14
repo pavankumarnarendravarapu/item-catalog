@@ -1,4 +1,3 @@
-<p style="text-align: right;">By-: N.Pavan Kuamr</p>
 
 # item-catalog
 > It is the 4th project in UACITY FULL STACK.
@@ -63,9 +62,5 @@
 `localhost:5050/college/<int:college_id>/main/<int:branch_id>/JSON`
 	
 `localhost:5050/college/<int:branch_id>/main/JSON`
-	
-	
 
-
-### Visit my `Web-site`
-> http://localhost:5050/college/
+<p style="text-align: right;">By-: N.Pavan Kumar</p>
