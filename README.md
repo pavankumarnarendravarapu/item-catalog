@@ -44,4 +44,4 @@
  - `SQLalchemy` -  SQLAlchemy's philosophy is that relational databases behave less like object collections as the scale gets larger and performance starts being a concern, while object collections behave less like tables and rows as more abstraction is designed into them.
 
 # Process for login through Google
-> Open Browser and go to  console.developers.google.com (https://console.developers.google.com/)
+> Open Browser and go to[console.developers.google.com](https://console.developers.google.com/)
